@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/ico" href="ia_logo.ico"/>
+    <title>ideadapt.net</title>
+    <style>
+        @font-face {
+            font-family: FrutigerBold;
+            src: url("frutiger/FrutigerLTStd-BoldCn.otf");
+        }
+
+        @font-face {
+            font-family: FrutigerCn;
+            src: url("frutiger/FrutigerLTStd-Cn.otf");
+        }
+
+        @font-face {
+            font-family: FrutigerLight;
+            src: url("frutiger/FrutigerLTStd-Light.otf");
+        }
+
+        html, body, div, p, span, h1, h2, h3, img, ul, blockquote, pre, a {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            vertical-align: baseline;
+            text-decoration: none;
+            color: #DDDDDD;
+            font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+            font-size: 13px;
+        }
+
+        :focus {
+            outline: 0;
+        }
+
+        body {
+            background: url("bodybg_bright.jpg") no-repeat fixed center top #000000;
+        }
+
+        #wrapper {
+            max-width: 600px;
+            min-width: 400px;
+            margin: auto;
+            position: relative;
+        }
+
+        p, ul{
+            line-height: 1.5rem;
+        }
+
+        h1 {
+            display: block;
+            font-size: 4rem;
+            margin-bottom: 40px;
+            opacity: 0.2;
+        }
+
+        ul li {
+            list-style-type: circle;
+        }
+
+        a {
+            color: #BBCC77;
+            border-bottom: 0 dashed #A8EF9D;
+        }
+
+        a:hover {
+            color: orange;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            font-weight: normal;
+            font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif
+        }
+
+        h2:not(:first-of-type), p + h2, ul + h2{
+            margin-top: 1rem;
+        }
+
+        ul li {
+            margin-left: 12px;
+        }
+
+        article {
+            border-radius: 8px;
+            background: url("blacktrans.png") repeat scroll left center transparent;
+            margin-bottom: 40px;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <h1>Person</h1>
+    <article>
+        <p>Me and myself</p>
+        <h2>Platforms</h2>
+        <ul>
+            <li>GitHub</li>
+            <li>Mastodon</li>
+        </ul>
+    </article>
+
+    <h1>Projects</h1>
+    <article>
+        <h2>programmieren-lernen-mit-javascript.ch</h2>
+        <p>...</p>
+    </article>
+
+    <article>
+        <h2>HTML2PDF Converter</h2>
+        <p>...</p>
+    </article>
+
+    <article>
+        <h2>Snake</h2>
+        <p>...</p>
+    </article>
+
+    <h1>Worth Sharing</h1>
+    <article>
+        <h2>Books</h2>
+        <p>...</p>
+        <h2>Links</h2>
+        <p>Der Text mit <a href="http://localhost:8080">link</a>.</p>
+        <ul>
+            <li>Link?</li>
+        </ul>
+    </article>
+</div>
+</body>
+</html>
