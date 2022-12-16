@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/ico" href="ia_logo.ico"/>
     <title>ideadapt.net</title>
     <style>
@@ -28,15 +29,22 @@
             text-decoration: none;
             color: #DDDDDD;
             font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
-            font-size: 13px;
         }
 
         :focus {
             outline: 0;
         }
 
+        html {
+            font-size: 14px;
+        }
+
         body {
-            background: url("bodybg_bright.jpg") no-repeat fixed center top #000000;
+            margin-top: 2rem;
+            background-image: url("bodybg_bright.jpg");
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-color: #000;
         }
 
         #wrapper {
@@ -52,7 +60,7 @@
 
         h1 {
             display: block;
-            font-size: 4rem;
+            font-size: 3rem;
             margin-bottom: 40px;
             opacity: 0.2;
         }
@@ -73,9 +81,10 @@
         h2 {
             font-size: 1.3rem;
             font-weight: normal;
-            font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif
+            font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+            margin-bottom: 10px;
         }
-
+        
         h2:not(:first-of-type), p + h2, ul + h2{
             margin-top: 1rem;
         }
@@ -94,40 +103,46 @@
 </head>
 <body>
 <div id="wrapper">
-    <h1>Person</h1>
     <article>
         <p>Me and myself</p>
         <h2>Platforms</h2>
         <ul>
-            <li>GitHub</li>
+            <li><a href="https://github.com/ideadapt">GitHub</a></li>
             <li>Mastodon</li>
         </ul>
     </article>
 
     <h1>Projects</h1>
     <article>
-        <h2>programmieren-lernen-mit-javascript.ch</h2>
-        <p>...</p>
+        <h2><a href="https://programmieren-lernen-mit-javascript.ch/">programmieren-lernen-mit-javascript.ch</a></h2>
+        <p>Deutsches Tutorial für Anfänger und Quereinsteiger um Programmieren zu lernen.
+        Verwendet wird JavaScript als Programmiersprache. Die Übungen basieren auf interaktiven 2D-Animationen (Games).</p>
     </article>
 
     <article>
-        <h2>HTML2PDF Converter</h2>
-        <p>...</p>
+        <h2><a href="https://html2pdf.fly.dev/">HTML2PDF Converter</a></h2>
+        <p>Free HTTP based API to convert any HTML to PDF. No usage quota, no registration, no rate limits.</p>
     </article>
 
     <article>
-        <h2>Snake</h2>
-        <p>...</p>
+        <h2><a href="...">Snake</a></h2>
+        <p>Browser based, extended version of the classic snake game.</p>
     </article>
 
-    <h1>Worth Sharing</h1>
+    <h1>&hellip;</h1>
     <article>
         <h2>Books</h2>
-        <p>...</p>
-        <h2>Links</h2>
-        <p>Der Text mit <a href="http://localhost:8080">link</a>.</p>
         <ul>
-            <li>Link?</li>
+            <li><a href="https://mitpress.mit.edu/9780262039703/the-software-arts/">The Software Arts - history, philosophy, logics</a></li>
+            <li><a href="https://exploringjs.com/">exploringjs.com - Good free online JavaScript books</a></li>
+        </ul>
+        <h2>Videos</h2>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=6avJHaC3C2U">The Art of Code - classical, homage to the art of programming</a></li>
+        </ul>
+        <h2>Links</h2>
+        <ul>
+            <li><a href="https://www.digitale-gesellschaft.ch/">digitale-gesellschaft.ch - Digitale Gesellschaft Schweiz</a></li>
         </ul>
     </article>
 </div>
